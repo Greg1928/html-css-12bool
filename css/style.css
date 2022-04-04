@@ -1,0 +1,18 @@
+[class*="col"]{
+    background-color: #006cfa;
+    border: solid 2px white;
+    min-height: 50px;
+    padding: 10px;
+
+}
+p{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.green{
+    background-color: #00e165;
+    border: solid 2px #006cfa;
+    font-size: small;
+}
+
