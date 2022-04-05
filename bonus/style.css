@@ -1,0 +1,43 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+.bck-color{
+    background-color: #003366;
+}
+.white{
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px;
+}
+.logo img{
+    height: 50px;
+    width: 45px;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.right-part, .left-part{
+    text-align: center;
+    padding: 10px 10px;
+    padding-bottom: 0;
+}
+.right-part i, .left-part i{
+    font-size: 25px;
+}
+.right-part p, .left-part p{
+    font-size: 13px;
+    margin-top: 10px;
+}
