@@ -12,7 +12,7 @@
 .white{
     color: white;
 }
-header{
+.container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,6 +33,7 @@ a{
     text-align: center;
     padding: 10px 10px;
     padding-bottom: 0;
+    cursor: pointer;
 }
 .right-part i, .left-part i{
     font-size: 25px;
@@ -40,4 +41,10 @@ a{
 .right-part p, .left-part p{
     font-size: 13px;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 992px){
+    .right-part, .left-part{
+        display: none;
+    }
 }
